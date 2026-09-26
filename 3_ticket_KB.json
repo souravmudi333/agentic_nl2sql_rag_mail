@@ -1,0 +1,71 @@
+{
+  "title": "IT Ticket Knowledge Base",
+  "purpose": "Structured IT problem-solution records for retrieval by an Agentic AI or RAG support agent.",
+  "tickets": [
+    {
+      "ticket_id": "TKT-001",
+      "category": "Microsoft Teams",
+      "problem_statement": "Teams is frozen; buttons do not respond.",
+      "solution": [
+        "Press Ctrl + Shift + Esc to open Task Manager.",
+        "Go to the Processes tab.",
+        "Find Microsoft Teams.",
+        "Right-click Microsoft Teams and select End task.",
+        "Reopen Microsoft Teams and test it again."
+      ]
+    },
+    {
+      "ticket_id": "TKT-003",
+      "category": "Internet / Wi-Fi",
+      "problem_statement": "Wi-Fi shows connected, but websites do not open.",
+      "solution": [
+        "Turn Wi-Fi off and on.",
+        "Reconnect to the Wi-Fi network.",
+        "Restart the laptop.",
+        "Open Command Prompt and run: ipconfig /flushdns",
+        "Test another website.",
+        "If all devices are affected, restart the router or contact IT support."
+      ]
+    },
+    {
+      "ticket_id": "TKT-004",
+      "category": "Printer",
+      "problem_statement": "Printer does not print even though the job was sent.",
+      "solution": [
+        "Check printer power and cable or network connection.",
+        "Open Settings > Printers & scanners.",
+        "Select the printer and review the print queue.",
+        "Cancel any stuck print jobs.",
+        "Print a test page.",
+        "Restart the Print Spooler service if required."
+      ]
+    },
+    {
+      "ticket_id": "TKT-005",
+      "category": "Windows Update",
+      "problem_statement": "Windows Update remains stuck at one percentage for a long time.",
+      "solution": [
+        "Keep the computer connected to power and the internet.",
+        "Run the Windows Update Troubleshooter.",
+        "Check that enough free storage is available.",
+        "Restart the computer if the update is clearly stalled.",
+        "Retry Windows Update.",
+        "Do not force-shutdown the computer during BIOS or firmware updates."
+      ]
+    },
+    {
+      "ticket_id": "TKT-006",
+      "category": "Outlook / Email",
+      "problem_statement": "Outlook is open but new emails are not appearing.",
+      "solution": [
+        "Check the internet connection.",
+        "Click Send/Receive.",
+        "Make sure Work Offline is disabled.",
+        "Check mailbox storage.",
+        "Restart Outlook.",
+        "Sign in again if required.",
+        "Compare with webmail to determine whether the issue is local to Outlook."
+      ]
+    }
+  ]
+}
